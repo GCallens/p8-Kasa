@@ -1,0 +1,37 @@
+@import "../../index.scss";
+
+.errorPage {
+    margin: 0;
+    color: #FF6060;
+    &_page {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3% 0 3%;
+        max-height: 900px;
+        &_title {
+            font-weight: 700;
+            font-size: 288px;
+            padding-top: 70px;
+            padding-bottom: 65px;
+            @media screen and (max-width: 768px) {
+                font-size: 100px;
+            }
+        }
+        &_content {
+            font-weight: 500;
+            font-size: clamp(20px, 3vw, 36px);
+            text-align: center;
+            padding-bottom: 100px;
+        }
+        &_return {
+            display: block;
+            text-align: center;
+            text-decoration: underline;
+            font-weight: 500;
+            font-size: clamp(12px, 2.5vw, 18px);
+            padding-bottom: 139px;
+        }
+    }
+}
