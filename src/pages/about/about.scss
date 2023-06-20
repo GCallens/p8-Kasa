@@ -1,7 +1,10 @@
 @import "../../index.scss";
 
 .about_main{
-    margin: 0 5% 0 5%;
+    margin: 0 10% 0 10%;
+    @media screen and (max-width: 550px) {
+        margin: 0 5% 0 5%;
+    }
     &_collapse{
         margin: 40px auto;
         @media screen and (max-width: 550px){
