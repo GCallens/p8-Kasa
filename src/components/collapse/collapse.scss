@@ -60,16 +60,15 @@
 .accomodation_collapse{
     display: flex;
     justify-content: space-between;
-    gap: 70px;
-    margin: 30px auto;
-    width: 95%;
+    gap: 76px;
+    margin: 24px 5% 50px;
     &_item{
         width: 50%;
     }
-    @media screen and (max-width: 650px){
+    @media screen and (max-width: 550px){
         flex-direction: column;
         gap: 20px;
-        margin: 20px auto;
+        margin: 13px 5% 27px;
         &_item{
             width: 100%;
         }

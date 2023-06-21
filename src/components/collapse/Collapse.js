@@ -27,6 +27,8 @@ function Collapse({title, content}) {
                 }
             </div>
         </div>
+        // si Content est bien un tableau > alors on affiche le tableau avec
+        // map(item, index) sinon on affiche juste le content
     )
 }
 
