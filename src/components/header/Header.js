@@ -1,12 +1,13 @@
 import React from "react";
 import Logo from '../../assets/logo.png'
-import { Link } from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 import './header.scss'
 
 
-const currentRoute = window.location.pathname;
-
 function Header() {
+
+    const currentRoute = useLocation().pathname
+
     return (
         <header className="header">
             <h1 className="logo">
