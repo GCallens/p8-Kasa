@@ -10,9 +10,9 @@ function Header() {
 
     return (
         <header className="header">
-            <h1 className="logo">
+            <div className="logo">
                 <img src={Logo} alt="Kasa, location d'hébergements"/>
-            </h1>
+            </div>
 
             <nav className='nav'>
                 <ul className='nav_list'>
